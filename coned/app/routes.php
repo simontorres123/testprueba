@@ -84,4 +84,4 @@ Route::match(array('GET','POST'), '/vEmail','TestController@vEmail');
    Route::post('/inicio/cliente', 'TablasController@accionClientes');
 
 Route::match(array('GET','POST'), '/clienteini', 'TestController@vCliente');
-
+Route::match(array('GET','POST'), '/clienteCuestionario', 'TestController@vCuestionario');

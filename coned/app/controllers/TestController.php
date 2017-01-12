@@ -103,10 +103,15 @@ class TestController extends BaseController {
 	public function vClave(){
 
 
-	}
+	}//no se xD
 	public function vCliente(){
 			if(Request::method()=="GET") {
 				return View::make('base.baseCliente');
+			}
+	}//cierre de vCliente
+	public function vCuestionario(){
+			if(Request::method()=="GET") {
+				return View::make('cliente.cuestionario');
 			}
 	}//cierre de vCliente
 

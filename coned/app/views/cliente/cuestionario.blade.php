@@ -63,11 +63,11 @@
 	
 	<!-- <div class="page-inner"> -->
 	<nav class="gtco-nav" role="navigation">
-		<div class="gtco-container">
+		<div class="gtco-container" style="background-color:yellow">
 			
 			<div class="row">
 				<div class="col-sm-4 col-xs-12">
-					<div id="gtco-logo"><a href="index.html">Tested <em>.</em></a></div>
+					<div id="gtco-logo"><a style="color:red"; href="index.html">Tested <em style="color:black">.</em></a></div>
 				</div>
 
 			</div>
@@ -75,25 +75,22 @@
 		</div>
 	</nav>
 	
-	<header id="gtco-header" class="gtco-cover gtco-cover-sm" role="banner" style="background-image: url(/packages/admin/assets/img/header-bg.jpg)">
-		<div class="overlay"></div>
+	
+	<div id="gtco-features">
 		<div class="gtco-container">
 			<div class="row">
-				<div class="col-md-12 col-md-offset-0 text-center">
-
-					<div class="row row-mt-15em">
-						<div class="col-md-12 mt-text animate-box" data-animate-effect="fadeInUp">
-							<span class="intro-text-small">Coned<a href="https://www.facebook.com/CONEDMEX/?fref=ts" target="_blank">Conocenos</a></span>
-							<h1 class="cursive-font">Cuestionario Operativo!</h1>	
-						</div>
-						
-					</div>
-					
+				<div class="col-md-8 col-md-offset-2 text-center gtco-heading animate-box">
+					<h2 class="cursive-font">Instrucciones</h2>
+					<p>Empezamos.</p>
 				</div>
 			</div>
+			<div class="row">
+				
+				
+
+			</div>
 		</div>
-	</header>
-	
+	</div>
 	
 	<div class="gtco-section">
 		<div class="gtco-container ">
@@ -110,34 +107,6 @@
 							
 						</div>
 
-						<div class="row form-group">
-							<div class="col-md-12">
-								<label class="sr-only" for="email">Email</label>
-								<input type="text" id="email" class="form-control" placeholder="Escribir tu CURP">
-							</div>
-						</div>
-						<div class="row form-group">
-				            <!-- <label for="asiento" class="control-label col-md-2">Asientos:</label>-->
-				              <div class="col-md-12">
-				                  <select name="sexo" class="form-control" placeholder="sexo">
-				                      <option value="M" selected disabled="">Escolaridad</option>
-				                      <option value="M">Primaria</option>
-				                      <option value="F">Secundaria</option>
-				                      <option value="F">Preparatoria</option>
-				                      <option value="F">Universidad</option>
-				                  </select>
-				              </div>
-				        </div>
-						<div class="row form-group">
-				            <!-- <label for="asiento" class="control-label col-md-2">Asientos:</label>-->
-				              <div class="col-md-12">
-				                  <select name="sexo" class="form-control" placeholder="sexo">
-				                      <option value="M" selected disabled="">Sexo</option>
-				                      <option value="M">Masculino</option>
-				                      <option value="F">Femenino</option>
-				                  </select>
-				              </div>
-				        </div>
 						<div class="form-group">
 							<input type="submit" value="Comenzar " class="btn btn-primary">
 						</div>
@@ -150,7 +119,7 @@
 			</div>
 		</div>
 	</div>
-
+		<!--
 	<footer id="gtco-footer" role="contentinfo" style="background-image: url(images/img_bg_1.jpg)" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="gtco-container">
@@ -181,7 +150,7 @@
 
 			
 		</div>
-	</footer>
+	</footer> -->
 	<!-- </div> -->
 
 	</div>

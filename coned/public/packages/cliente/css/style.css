@@ -242,7 +242,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media screen and (max-width: 992px) {
   #gtco-header.gtco-cover {
-    height: inherit !important;
+    height: 50px !important;
     padding: 3em 0 !important;
   }
 }
@@ -452,7 +452,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .gtco-cover {
-  height: 900px;
+  height: 50px;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -481,7 +481,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media screen and (max-width: 768px) {
   .gtco-cover {
-    height: 600px;
+    height: 100px;
   }
 }
 .gtco-cover .display-t,
@@ -493,11 +493,11 @@ h1, h2, h3, h4, h5, h6, figure {
 @media screen and (max-width: 768px) {
   .gtco-cover .display-t,
   .gtco-cover .display-tc {
-    height: 600px;
+    height: 100px;
   }
 }
 .gtco-cover.gtco-cover-sm {
-  height: 600px;
+  height: 100px;
 }
 @media screen and (max-width: 768px) {
   .gtco-cover.gtco-cover-sm {
@@ -506,7 +506,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .gtco-cover.gtco-cover-sm .display-t,
 .gtco-cover.gtco-cover-sm .display-tc {
-  height: 600px;
+  height: 200px;
   display: table;
   width: 100%;
 }
