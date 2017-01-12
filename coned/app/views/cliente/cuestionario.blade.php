@@ -95,18 +95,60 @@
 	<div class="gtco-section">
 		<div class="gtco-container ">
 			<div class="row ">
-				<div class="col-xs-6 col-md-12">
-					<div class="col-xs-6 col-sm-6 animate-box">
-					<h3>Registra tus datos</h3>
+				<div class=" col-md-12">
+					<div class="col-md-12 animate-box">
+					<h3>¿Qué tanto te agrada atender a numerosas personas con agilidad y amabilidad?</h3>
 					<form action="#">
 						<div class="row form-group">
-							<div class="col-md-12">
-								<label class="sr-only" for="name">Name</label>
-								<input type="text" id="name" class="form-control" placeholder="Escribe tu nombre">
+							<h3>¿Qué tanto te agrada atender a numerosas personas con agilidad y amabilidad?</h3>
+							<div class="col-md-12 btn btn-primary active">
+								<input type="radio" name="options" id="option1" autocomplete="off" checked> Me agrada bastante.</label>
+								<input type="radio" name="options" id="option1" autocomplete="off" checked> Me agrada algo o en parte.</label>
+								<input type="radio" name="options" id="option1" autocomplete="off" checked> Me es indiferente, pues ni me gusta ni me disgusta.</label>	
+								<input type="radio" name="options" id="option1" autocomplete="off" checked> Me desagrada algo o en parte. </label>	
+								<input type="radio" name="options" id="option1" autocomplete="off" checked> Me desagrada mucho o totalmente</label>		
 							</div>
-							
 						</div>
-
+						<div class="row form-group">
+							<h3>¿Qué tanto te agrada atender a numerosas personas con agilidad y amabilidad?</h3>
+							<div class="col-md-12">
+								<input type="radio-inline" name="options" id="option1" autocomplete="off" checked> Me agrada bastante.</label>
+								<input type="radio-inline" name="options" id="option1" autocomplete="off" checked> Me agrada bastante.</label>
+							</div>
+						</div>
+						<div class="btn-group" data-toggle="buttons">
+						<h3>¿Qué tanto te agrada atender a numerosas personas con agilidad y amabilidad?</h3>
+						  <label class="btn btn-primary active">
+						    <input type="radio" name="options" id="option1" autocomplete="off"> Me agrada bastante.
+						  </label>
+						  <label class="btn btn-primary">
+						    <input type="radio" name="options" id="option2" autocomplete="off"> Me agrada algo o en parte.
+						  </label>
+						  <label class="btn btn-primary">
+						    <input type="radio" name="options" id="option3" autocomplete="off"> Me es indiferente, pues ni me gusta ni me disgusta.
+						  </label>
+						  <label class="btn btn-primary">
+						    <input type="radio" name="options" id="option3" autocomplete="off"> Me desagrada algo o en parte.
+						  </label>
+						  <label class="btn btn-primary">
+						    <input type="radio" name="options" id="option3" autocomplete="off"> Me desagrada mucho o totalmente
+						  </label>
+						</div>
+						<div class="row form-group">
+				            <!-- <label for="asiento" class="control-label col-md-2">Asientos:</label>-->
+				              <div class="col-md-12">
+				                  <select name="sexo" class="form-control" placeholder="sexo">
+				                      <option value="M" selected disabled="">Escolaridad</option>
+				                      <option value="M">Primaria</option>
+				                      <option value="F">Secundaria</option>
+				                      <option value="F">Preparatoria</option>
+				                      <option value="F">Universidad</option>
+				                  </select>
+				              </div>
+				        </div>
+						<br>
+						<br>
+						<!-- BOTON DE GUARDAR -->
 						<div class="form-group">
 							<input type="submit" value="Comenzar " class="btn btn-primary">
 						</div>
