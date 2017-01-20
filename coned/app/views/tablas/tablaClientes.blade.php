@@ -45,10 +45,10 @@
                 <form method="POST", action="/inicio/cliente" id="frm-update">
                   <input type="hidden" name="id" id="id">
                   <input type="hidden" name="accion" value="update">
-                <!--  <div class="form-group">
+                  <div class="form-group">
                     <label for="nombre">Nombre</label>
                     <input type="text" class="form-control" id="nombre" placeholder="Nombre" name="nombre">
-                  </div> -->
+                  </div> 
                   <div class="form-group">
                     <label for="empresa">Empresa</label>
                     <input type="text" class="form-control" id="empresa" placeholder="Nombre de la empresa" name="empresa">
@@ -126,6 +126,7 @@
 	        $('#modal-edicion').modal('toggle');
 	        $('#id').val($element.id);
 	        $('#empresa').val($element.empresa);
+          $('#nombre').val($element.nombre);
 	        $('#emails').val($element.emails);
 	        $('#telefono').val($element.telefono);
 	      });

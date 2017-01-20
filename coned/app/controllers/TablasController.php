@@ -12,7 +12,9 @@
 					break;
 				case 'update':
 						$cliente = Cliente::find(Input::get('id'));
+						$cliente -> nombre = Input::get('nombre');
 						$cliente -> empresa = Input::get('empresa');
+						
 						$cliente -> telefono = Input::get('telefono');
 						$cliente -> emails = Input::get('emails');
 						$cliente -> save();

@@ -111,6 +111,8 @@
                             <span class="intro-text-small"><a href="http://www.conedmex.com" target="_blank">Coned.com</a></span>
                             <h1 class="cursive-font">Se cambiara</h1>    
                         </div>
+
+                        <!-- SECCION DE LA CLAVE
                         <div class="col-md-4 col-md-push-1 animate-box" data-animate-effect="fadeInRight">
                             <div class="form-wrap">
                                 <div class="tab">
@@ -133,12 +135,15 @@
                                                         </select>
                                                     </div>
                                                 </div><!-->
+
+                                                <!-- BOTON DE COMIENZA
                                                 <div class="row form-group">
                                                     <div class="col-md-12">
                                                         <label for="date-start">Clave</label>
                                                         <input id="clave" class="form-control" type="text" placeholder="" name="clave">
                                                     </div>
                                                 </div>
+                                                -->
                                                 <!-- PARA EL TIEMPO
                                                 <div class="row form-group">
                                                     <div class="col-md-12">
@@ -147,6 +152,7 @@
                                                     </div>
                                                 </div>
                                                  <!-->   
+                                                 <!--
                                                 <div class="row form-group">
                                                     <div class="col-md-12">
                                                         <input type="submit" class="btn btn-primary btn-block" value="Comienza">
@@ -160,6 +166,7 @@
                                 </div>
                             </div>
                         </div>
+                        -->
                     </div>
                             
                     

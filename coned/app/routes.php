@@ -7,10 +7,10 @@ Route::get('/', function()
 });
 Route::get('/a', function()
 {
-  /*
+  
   $consulta = Cliente::select('clientes.empresa as empresa','clientes.telefono','clientes.emails',DB::raw('concat(clientes.nombre," ",clientes.apellido_paterno," ",clientes.apellido_materno)as nombre'))
-  */
-  $consulta = Clave::select('claves.id','claves.clave')
+  
+  //$consulta = Clave::select('claves.id','claves.clave')
         ->get();
       
   return $consulta;

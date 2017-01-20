@@ -78,6 +78,7 @@ class TestController extends BaseController {
 					'telefono' 			=> 'required',
 					'apellido_paterno' 	=> 'required',
 					'apellido_materno' 	=> 'required'
+					
 				));
 				if($validator->fails()) {
 					return Redirect::back()->with('validaciones', $validator -> messages());
@@ -90,6 +91,7 @@ class TestController extends BaseController {
 					$data ['empresa'] 			=$usuario-> empresa = $request['empresa'];
 					$data ['emails']  	 		=$usuario-> emails =  $request['emails'];
 					$data ['telefono']  		=$usuario-> telefono =  $request['telefono'];
+					$data ['estados_id']		=$usuario-> estados_id = $request['estados_id'];
 					$usuario->save();
 					return Redirect::back()->with('success', 'Saatisfaccion');
 					}

@@ -63,7 +63,7 @@
 	
 	<!-- <div class="page-inner"> -->
 	<nav class="gtco-nav" role="navigation">
-		<div class="gtco-container" style="background-color:yellow">
+		<div class="gtco-container" style="background-color:black">
 			
 			<div class="row">
 				<div class="col-sm-4 col-xs-12">
@@ -97,25 +97,10 @@
 			<div class="row ">
 				<div class=" col-md-12">
 					<div class="col-md-12 animate-box">
-					<h3>¿Qué tanto te agrada atender a numerosas personas con agilidad y amabilidad?</h3>
+
 					<form action="#">
-						<div class="row form-group">
-							<h3>¿Qué tanto te agrada atender a numerosas personas con agilidad y amabilidad?</h3>
-							<div class="col-md-12 btn btn-primary active">
-								<input type="radio" name="options" id="option1" autocomplete="off" checked> Me agrada bastante.</label>
-								<input type="radio" name="options" id="option1" autocomplete="off" checked> Me agrada algo o en parte.</label>
-								<input type="radio" name="options" id="option1" autocomplete="off" checked> Me es indiferente, pues ni me gusta ni me disgusta.</label>	
-								<input type="radio" name="options" id="option1" autocomplete="off" checked> Me desagrada algo o en parte. </label>	
-								<input type="radio" name="options" id="option1" autocomplete="off" checked> Me desagrada mucho o totalmente</label>		
-							</div>
-						</div>
-						<div class="row form-group">
-							<h3>¿Qué tanto te agrada atender a numerosas personas con agilidad y amabilidad?</h3>
-							<div class="col-md-12">
-								<input type="radio-inline" name="options" id="option1" autocomplete="off" checked> Me agrada bastante.</label>
-								<input type="radio-inline" name="options" id="option1" autocomplete="off" checked> Me agrada bastante.</label>
-							</div>
-						</div>
+
+						<!--
 						<div class="btn-group" data-toggle="buttons">
 						<h3>¿Qué tanto te agrada atender a numerosas personas con agilidad y amabilidad?</h3>
 						  <label class="btn btn-primary active">
@@ -134,23 +119,2071 @@
 						    <input type="radio" name="options" id="option3" autocomplete="off"> Me desagrada mucho o totalmente
 						  </label>
 						</div>
-						<div class="row form-group">
-				            <!-- <label for="asiento" class="control-label col-md-2">Asientos:</label>-->
-				              <div class="col-md-12">
-				                  <select name="sexo" class="form-control" placeholder="sexo">
-				                      <option value="M" selected disabled="">Escolaridad</option>
-				                      <option value="M">Primaria</option>
-				                      <option value="F">Secundaria</option>
-				                      <option value="F">Preparatoria</option>
-				                      <option value="F">Universidad</option>
-				                  </select>
-				              </div>
-				        </div>
+						-->
+				        <br>
+				        <!--     PREGUNTA NUMERO 1  -->
+				        <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada atender a numerosas personas con agilidad y amabilidad?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+				        	
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>
+					        
+					    	</div>
+					    </div>
+
+					    <!--     PREGUNTA NUMERO 2  -->
+					    <div class="funkyradio">
+					    <br>
+
+				        	<h3>¿Qué tanto te agrada armar y componer objetos mecánicos como chapas, timbres etc?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    </div>
+					    </div>
+				        <!--     PREGUNTA NUMERO 3  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada hacer con precisión sumas, restas, multiplicaciones y divisiones mentalmente?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					    <!--     PREGUNTA NUMERO 4  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada las actividades que requieren destreza manual como: cortar, armar, tejer, coser?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					    <!--     PREGUNTA NUMERO 5  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada participar en actividades que requieren audacia, valor, decisión, cómo trepar, dar saltos arriesgados, participar en juegos peligrosos sin sentir temor?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					    <!--     PREGUNTA NUMERO 6  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada ser jefe competente de un grupo o equipo?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					    <!--     PREGUNTA NUMERO 7  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada sentirte seguro al hablar en público?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					    <!--     PREGUNTA NUMERO 8  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada vender mercancía de moda por catálogo y/o internet?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					    <!--     PREGUNTA NUMERO 9  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada ser directo y firme al hablar con otras personas?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					    <!--     PREGUNTA NUMERO 10  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada ordenar y clasificar debidamente documentos y oficios en tu oficina o casa?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					    <!--     PREGUNTA NUMERO 11  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada trabajar solo</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    </div>
+					    <!--     PREGUNTA NUMERO 12  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada desarmar, armar y componer juguetes complicados?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					    <!--     PREGUNTA NUMERO 13  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada tener dificultad para resolver problemas de aritmética?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					   		</div>
+					   	</div>
+					    <!--     PREGUNTA NUMERO 14  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada manejar con habilidad herramientas de carpintería con martillo, serrucho, desarmadores etc.?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					    <!--     PREGUNTA NUMERO 15  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada dominarte en situaciones peligrosas o comprometidas, sin perder la cabeza ni el control de la situación?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					    <!--     PREGUNTA NUMERO 16  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada organizar y dirigir festivales, encuentros deportivos, excursiones, campañas sociales o convivios?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					    <!--     PREGUNTA NUMERO 17  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada redactar composiciones de canciones o poemas y leerlos en voz alta?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					    <!--     PREGUNTA NUMERO 18  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada dirigir la propaganda de un nuevo producto?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					    <!--     PREGUNTA NUMERO 19  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada ser miembro activo y útil en un club o sociedad?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					   	 	</div>
+					   	 </div>
+					    <!--     PREGUNTA NUMERO 20  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada aprender o redactar y contestar correctamente oficios y cartas?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					    <!--     PREGUNTA NUMERO 21  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada tener una familia con pocos integrantes?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					    <!--     PREGUNTA NUMERO 22  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada Resolver rompecabezas de carton, madera o alambre?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					    <!--     PREGUNTA NUMERO 23  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada resolver mentalmente la división de una cantidad?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					    <!--     PREGUNTA NUMERO 24  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada reconocerme como  poco hábil al manejar herramientas mecánicas como pinzas, llave de tuercas, destornillador, etc?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					    <!--     PREGUNTA NUMERO 25  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada dominar tus nervios  y continuar con lo que estas haciendo en momentos de tensión o que por un peligro todos quieren huir?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					    <!--     PREGUNTA NUMERO 26  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada ser fácilmente dirigido por los demás?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					    <!--     PREGUNTA NUMERO 27  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada participar activamente dando tus puntos de vista en clase o en un curso?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					     <!--     PREGUNTA NUMERO 28  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada investigar la eficiencia de los métodos para incrementar venta?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					    <!--     PREGUNTA NUMERO 29  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada colaborar con otros en bien de los demás y de ti mismo?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					    <!--     PREGUNTA NUMERO 30  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada hacer con precisión sumas, restas, multiplicaciones y divisiones mentalmente?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					    <!--     PREGUNTA NUMERO 31  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada mostrarte amable?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					    <!--     PREGUNTA NUMERO 32  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada dudar al identificar procesos en el   funcionamiento de ciertos mecanismos complicados como motores, relojes, bombas, etc.?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					    <!--     PREGUNTA NUMERO 33  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada las funciones de contabilidad?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					    <!--     PREGUNTA NUMERO 34  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada manejar con habilidad pequeñas piezas y herramientas, como agujas, manecillas, joyas, piezas de relojería, etc.?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					    <!--     PREGUNTA NUMERO 35  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada quedar intranquilo y nervioso , después de una situación de peligro?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					    <!--     PREGUNTA NUMERO 36  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada recibir órdenes de otros?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					    <!--     PREGUNTA NUMERO 37  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada leer y escribir cuentos, narraciones, historietas o artículos?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					    <!--     PREGUNTA NUMERO 38  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada trabajar como supervisor de ventas en un gran almacén?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					    <!--     PREGUNTA NUMERO 39  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada saber escuchar a otros y escuchar su punto de vista?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					    <!--     PREGUNTA NUMERO 40  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada encargarte de recibir, anotar, y dar recados con el riesgo de olvidar los detalles importantes?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					    <!--     PREGUNTA NUMERO 41  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada conciliar o cambiar de tema aunque  tu no estés de acuerdo con el interlocutor?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					    <!--     PREGUNTA NUMERO 42  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada dejar de manejar herramientas y maquinaria?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					    <!--     PREGUNTA NUMERO 43  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada saber de memoria las tablas numéricas?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					    <!--     PREGUNTA NUMERO 44  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada necesitar ayuda  para poder realizar trazos geométricos con ayuda de escuadras, reglas, compás?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					    <!--     PREGUNTA NUMERO 45  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada infundirles ánimo con tu ejemplo, en lugar de contagiarte del miedo o pánico de los demás?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					    <!--     PREGUNTA NUMERO 46  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada dirigir un grupo o equipo en situaciones difíciles y peligrosas?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					    <!--     PREGUNTA NUMERO 47  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada leer, apreciar y distinguir la buena literatura?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					    <!--     PREGUNTA NUMERO 48  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada vender boletos para una rifa de beneficencia?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					    <!--     PREGUNTA NUMERO 49  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada conversar en las reuniones y fiestas con seguridad y naturalidad?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					    <!--     PREGUNTA NUMERO 50  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada aprender a escribir en computadora y dispositivos móviles?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					    <!--     PREGUNTA NUMERO 51  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada trabajar donde pocas personas puedan observarte?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					    <!--     PREGUNTA NUMERO 52  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada reparar instalaciones eléctricas en tu casa?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					    <!--     PREGUNTA NUMERO 53  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada memorizar números telefónicos?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					    <!--     PREGUNTA NUMERO 54  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada hacer moños y adornos decorativos?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					    <!--     PREGUNTA NUMERO 55  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada ayudar a organizar a los demás en caso de incendio?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					    <!--     PREGUNTA NUMERO 56  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada ser el guía de una investigación?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					    <!--     PREGUNTA NUMERO 57  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada te gustria perder el miedo en hablar en publico?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					    <!--     PREGUNTA NUMERO 58  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada vender productos de tecnología como teléfonos, consolas, tabletas etc.?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					     <!--     PREGUNTA NUMERO 59  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada ayudar a tus compañeros en sus problemas y dificultades?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					     <!--     PREGUNTA NUMERO 60  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada ayudar a calificar pruebas?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					     <!--     PREGUNTA NUMERO 61  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada realizar mi trabajo a pesar de tener problemas?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					     <!--     PREGUNTA NUMERO 62  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada ser un trabajador muy activo?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					     <!--     PREGUNTA NUMERO 63  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada estar dispuesto a hacer sacrificios con el fin de lograr un objetivo general?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					     <!--     PREGUNTA NUMERO 64  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada ser cumplido en cualquier trabajo que realice rápido con calidad, evitando cometer errores?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					     <!--     PREGUNTA NUMERO 65  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada realizar actividades que requieran vigor y vitalidad?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					     <!--     PREGUNTA NUMERO 66  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada persistir en alcanzar las metas pese a obstáculos y contratiempos?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					     <!--     PREGUNTA NUMERO 67  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada terminar cualquier trabajo que inicie?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					     <!--     PREGUNTA NUMERO 68  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada mantener un ritmo rápido en el trabajo o en el juego?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					     <!--     PREGUNTA NUMERO 69  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada invertir tiempo y esfuerzo en capacitarme para desempeñar mejor mi trabajo?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					     <!--     PREGUNTA NUMERO 70  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada ser una persona en la que se puede confiar?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					     <!--     PREGUNTA NUMERO 71  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada hacer más cosas que la mayoría de las personas?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					     <!--     PREGUNTA NUMERO 72  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada ser cumplido con mis paos y compromisos?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					     <!--     PREGUNTA NUMERO 73  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada realizar la misma tarea por mucho  tiempo?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					     <!--     PREGUNTA NUMERO 74  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada tener dificultad al  realizar tareas que requieran habilidad y esfuerzo?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					     <!--     PREGUNTA NUMERO 75  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada tener una buena reputación y credibilidad en mi entorno social?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					     <!--     PREGUNTA NUMERO 76  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada seguir instrucciones y hacer lo que se espera de mi?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					     <!--     PREGUNTA NUMERO 77  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada trabajar largas horas sin distraerme, con atención y energía?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					     <!--     PREGUNTA NUMERO 78  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada cumplir con mi palabra, con lo que he prometido?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
+					     <!--     PREGUNTA NUMERO 4  -->
+					    <div class="funkyradio">
+				        	<h3>¿Qué tanto te agrada ?</h3>
+				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
+					        <div class="funkyradio-default">
+					            <input type="radio" name="radio" id="radio1" />
+					            <label for="radio1">Me agrada bastante.</label>
+					        </div>
+					        <div class="funkyradio-primary">
+					            <input type="radio" name="radio" id="radio2" />
+					            <label for="radio2">Me agrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-success">
+					            <input type="radio" name="radio" id="radio3" checked/>
+					            <label for="radio3">Me es indiferente, pues ni me gusta ni me disgusta.</label>
+					        </div>
+					        <div class="funkyradio-danger">
+					            <input type="radio" name="radio" id="radio4" />
+					            <label for="radio4">Me desagrada algo o en parte.</label>
+					        </div>
+					        <div class="funkyradio-warning">
+					            <input type="radio" name="radio" id="radio5" />
+					            <label for="radio5">Me desagrada mucho o totalmente</label>
+					        </div>  
+					    	</div>
+					    </div>
 						<br>
 						<br>
 						<!-- BOTON DE GUARDAR -->
 						<div class="form-group">
-							<input type="submit" value="Comenzar " class="btn btn-primary">
+							<input type="submit" value="Enviar " class="btn btn-primary">
 						</div>
 						
 
