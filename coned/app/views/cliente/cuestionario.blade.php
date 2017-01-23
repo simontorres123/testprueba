@@ -154,7 +154,7 @@
 					    <div class="funkyradio">
 					    <br>
 
-				        	<h3>¿Qué tanto te agrada armar y componer objetos mecánicos como chapas, timbres etc?</h3>
+				        	<h3>¿Qué tanto te agrada armar y componer objetos mecánicos como chapas, timbres etc.?</h3>
 				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
 					        <div class="funkyradio-default">
 					            <input type="radio" name="radio" id="radio1" />
@@ -388,7 +388,7 @@
 					    </div>
 					    <!--     PREGUNTA NUMERO 11  -->
 					    <div class="funkyradio">
-				        	<h3>¿Qué tanto te agrada trabajar solo</h3>
+				        	<h3>¿Qué tanto te agrada trabajar solo?</h3>
 				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
 					        <div class="funkyradio-default">
 					            <input type="radio" name="radio" id="radio1" />
@@ -1999,7 +1999,7 @@
 					    </div>
 					     <!--     PREGUNTA NUMERO 73  -->
 					    <div class="funkyradio">
-				        	<h3>¿Qué tanto te agrada realizar la misma tarea por mucho  tiempo?</h3>
+				        	<h3>¿Qué tanto te agrada realizar la misma tarea por mucho tiempo?</h3>
 				        	<div class="col-md-12 btn btn-primary" style="background-color:blue; text-align:left" >
 					        <div class="funkyradio-default">
 					            <input type="radio" name="radio" id="radio1" />

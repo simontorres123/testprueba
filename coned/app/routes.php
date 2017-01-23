@@ -8,7 +8,8 @@ Route::get('/', function()
 Route::get('/a', function()
 {
   
-  $consulta = Cliente::select('clientes.empresa as empresa','clientes.telefono','clientes.emails',DB::raw('concat(clientes.nombre," ",clientes.apellido_paterno," ",clientes.apellido_materno)as nombre'))
+  $consulta = Rasgo::join('preguntas as p','p.rasgos_id','=','rasgos.id')
+  ->select('p.nombre as nombre','rasgos.nombre as rasgo')
   
   //$consulta = Clave::select('claves.id','claves.clave')
         ->get();
@@ -82,6 +83,10 @@ Route::match(array('GET','POST'), '/vEmail','TestController@vEmail');
   //seccion del cliente
    Route::get('/inicio/cliente', 'TablasController@showClientes');
    Route::post('/inicio/cliente', 'TablasController@accionClientes');
+   //preguntas
+   Route::get('/inicio/preguntas', 'TablasController@showPreguntas');
+   Route::post('/inicio/preguntas', 'TablasController@accionPreguntas');
+   
 
 Route::match(array('GET','POST'), '/clienteini', 'TestController@vCliente');
 Route::match(array('GET','POST'), '/clienteCuestionario', 'TestController@vCuestionario');

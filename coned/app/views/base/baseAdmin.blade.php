@@ -51,7 +51,7 @@
 			<a href="" class="smoothScroll">Altas</a>
 			<a href="/vRegistro"><i class="smoothScroll"></i>Personal</a>
 			<a href="/vClientes" class="smoothScroll">Clientes</a>
-			<a href="/vPreguntas" class="smoothScroll">Preguntas</a>
+			<a href="/inicio/preguntas" class="smoothScroll">Preguntas</a>
 			<a href="" class="smoothScroll"></a>
 			<a href="" class="smoothScroll">Actualizaciones</a>
 			<a href="/inicio/cliente"><i class="smoothScroll"></i>Clientes</a>
