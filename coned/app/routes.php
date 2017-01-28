@@ -7,12 +7,26 @@ Route::get('/', function()
 });
 Route::get('/a', function()
 {
-  
+  /*
   $consulta = Rasgo::join('preguntas as p','p.rasgos_id','=','rasgos.id')
   ->select('p.nombre as nombre','rasgos.nombre as rasgo')
+*/
+  $consulta = Respuesta::join('tests as t','t.respuestas_id','=','respuestas.id')
+  ->join('preguntas as p','p.id','=','t.preguntas_id')
+  ->join('users as u','u.id','=','t.users_id')
+  ->join('rasgos as ra','ra.id','=','p.rasgos_id')
+  ->select('respuestas.nombre as resp','p.nombre as pregunta',
+    Respuesta::raw('sum(respuestas.puntuacion) as pun'),'u.username','ra.nombre as rasg')
+  ->where('u.id','=',1)
+  ->groupBy('rasg')
+  
+
+  /*$consulta = Test::table('tests')
+  ->join('respuestas','tests.respuestas_id','=','respuestas.id')
+  ->select('respuestas.nombre')*/
   
   //$consulta = Clave::select('claves.id','claves.clave')
-        ->get();
+  ->get();
       
   return $consulta;
 });
