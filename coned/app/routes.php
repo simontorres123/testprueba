@@ -7,27 +7,13 @@ Route::get('/', function()
 });
 Route::get('/a', function()
 {
-  /*
+  
   $consulta = Rasgo::join('preguntas as p','p.rasgos_id','=','rasgos.id')
   ->select('p.nombre as nombre','rasgos.nombre as rasgo')
-*/
-  $consulta = Respuesta::join('tests as t','t.respuestas_id','=','respuestas.id')
-  ->join('preguntas as p','p.id','=','t.preguntas_id')
-  ->join('users as u','u.id','=','t.users_id')
-  ->join('rasgos as ra','ra.id','=','p.rasgos_id')
-  ->select('respuestas.nombre as resp','p.nombre as pregunta',
-    Respuesta::raw('sum(respuestas.puntuacion) as pun'),'u.username','ra.nombre as rasg')
-  ->where('u.id','=',1)
-  ->groupBy('rasg')
-  
 
-  /*$consulta = Test::table('tests')
-  ->join('respuestas','tests.respuestas_id','=','respuestas.id')
-  ->select('respuestas.nombre')*/
-  
   //$consulta = Clave::select('claves.id','claves.clave')
-  ->get();
-      
+        ->get();
+
   return $consulta;
 });
 
@@ -87,6 +73,8 @@ Route::get('/admin',function(){
   return View::make('base.baseAdmin');
 
 });
+
+
 Route::match(array('GET','POST'), '/vRegistro','TestController@vRegistro');
 Route::match(array('GET','POST'), '/vPreguntas','TestController@vPreguntas');
 Route::match(array('GET','POST'), '/vClientes','TestController@vClientes');
@@ -94,9 +82,14 @@ Route::match(array('GET','POST'),'/base/{email}/token/{token}', 'TestController@
 
 Route::match(array('GET','POST'), '/vEmail','TestController@vEmail');
 //seccion de las tablas
+Route::get('/inicio/resultados', 'ConsultasController@mostrarResultados');
+Route::get('/inicio/resultados', 'ConsultasController@consultaClientes');
+Route::post('/inicio/resultados', 'ConsultasController@accionResultados');
+
   //seccion del cliente
    Route::get('/inicio/cliente', 'TablasController@showClientes');
    Route::post('/inicio/cliente', 'TablasController@accionClientes');
+
    //preguntas
    Route::get('/inicio/preguntas', 'TablasController@showPreguntas');
    Route::post('/inicio/preguntas', 'TablasController@accionPreguntas');
@@ -104,3 +97,11 @@ Route::match(array('GET','POST'), '/vEmail','TestController@vEmail');
 
 Route::match(array('GET','POST'), '/clienteini', 'TestController@vCliente');
 Route::match(array('GET','POST'), '/clienteCuestionario', 'TestController@vCuestionario');
+
+// consulta de resultados por usuario
+
+
+/////
+
+
+

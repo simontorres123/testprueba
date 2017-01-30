@@ -108,6 +108,7 @@
 	      })
 
 	      .done(function(response) {
+              console.log(response);
 	        $tabla.bootstrapTable('showLoading');
 	        if(response.length > 0) {
 	          $tabla.bootstrapTable('destroy');

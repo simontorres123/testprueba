@@ -1,15 +1,13 @@
 <?php
-class Test extends Eloquent {
-	protected $table      = 'tests';
-	protected $fillable   = array('nombre','preguntas_id','respuestas_id','users_id');
-	/*public 	  $timestamps = true;  para la ultima vez que se logean   */
-	public function Pregunta (){
-		return $this -> hasMany('Pregunta','preguntas_id');
-	}
-	public function Respuesta(){
-		return $this -> hasMany('respuestas','respuestas_id');
-	}
-	public function User(){
-		return $this -> hasMany('users','users_id');
-	}
+/**
+ * Created by PhpStorm.
+ * User: windows
+ * Date: 28/01/2017
+ * Time: 17:39
+ */
+class Tests extends Eloquent {
+    protected $table      = 'tests';
+    protected $fillable   = array('respuestas_id', 'preguntas_id','users_id');
+    public 	  $timestamps = false;
+
 }
