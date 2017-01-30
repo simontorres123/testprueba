@@ -15,6 +15,7 @@ Route::get('/a', function()
         ->get();
 
   return $consulta;
+
 });
 
 
